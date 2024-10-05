@@ -4,23 +4,13 @@
     },
     "split": {
         "serial": {
-            "pin": "D2"
-        },
-        "transport": {
-            "sync": {
-                "matrix_state": true
-            }
+            "pin": "B6"
         }
-    },
-    "rgblight": {
-        "led_count": 54,
-        "split_count": [27, 27]
     },
     "ws2812": {
         "pin": "D3"
     },
     "rgb_matrix": {
-        "split_count": [27, 27],
         "layout": [
             {"x": 85, "y": 16, "flags": 2},
             {"x": 50, "y": 13, "flags": 2},
